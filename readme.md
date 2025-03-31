@@ -29,7 +29,7 @@ This project implements a machine learning model that predicts labels for given 
    python api.py
    ```
 
-   The server will start on port 81 by default.
+   The server will start on port 5000 by default.
 
 ## API Usage
 
