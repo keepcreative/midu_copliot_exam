@@ -94,4 +94,4 @@ if __name__ == "__main__":
 
     # Run the Flask app
     print("Starting API server...")
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=81, debug=True)
