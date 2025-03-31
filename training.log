@@ -1,0 +1,101 @@
+2025-03-31 08:46:45,588 - ERROR - Error loading data: Invalid label 7 found
+2025-03-31 08:51:52,904 - INFO - Loaded 4435 samples with class distribution:
+[   0 1072  479  961  415  470    0 1038]
+2025-03-31 08:51:52,910 - INFO - Training fold 1/5
+2025-03-31 08:51:55,928 - INFO - Training fold 2/5
+2025-03-31 08:51:58,551 - INFO - Training fold 3/5
+2025-03-31 08:52:01,083 - INFO - Training fold 4/5
+2025-03-31 08:52:03,603 - INFO - Training fold 5/5
+2025-03-31 08:52:08,002 - ERROR - Training failed: 'ModelTrainer' object has no attribute '_save_model'
+2025-03-31 08:55:58,619 - INFO - Loaded 4435 samples with class distribution:
+[   0 1072  479  961  415  470    0 1038]
+2025-03-31 08:55:58,625 - INFO - Training fold 1/5
+2025-03-31 08:56:01,755 - INFO - Training fold 2/5
+2025-03-31 08:56:04,193 - INFO - Training fold 3/5
+2025-03-31 08:56:06,954 - INFO - Training fold 4/5
+2025-03-31 08:56:09,418 - INFO - Training fold 5/5
+2025-03-31 08:56:13,865 - INFO - Model successfully saved to models/model_20250331_085613.joblib
+2025-03-31 08:56:14,387 - INFO - Model saved to models/model_20250331_085613.joblib
+2025-03-31 08:56:14,393 - ERROR - Training failed: 'ModelTrainer' object has no attribute 'print_tensorboard_instructions'
+2025-03-31 08:58:27,689 - INFO - Loaded 4435 samples with class distribution:
+[   0 1072  479  961  415  470    0 1038]
+2025-03-31 08:58:27,694 - INFO - Training fold 1/5
+2025-03-31 08:58:31,006 - INFO - Training fold 2/5
+2025-03-31 08:58:33,478 - INFO - Training fold 3/5
+2025-03-31 08:58:36,039 - INFO - Training fold 4/5
+2025-03-31 08:58:38,135 - INFO - Training fold 5/5
+2025-03-31 08:58:42,960 - INFO - Model successfully saved to models/model_20250331_085842.joblib
+2025-03-31 08:58:43,640 - INFO - Model saved to models/model_20250331_085842.joblib
+2025-03-31 08:58:43,646 - INFO - 
+To view TensorBoard logs, run the following command:
+2025-03-31 08:58:43,646 - INFO - tensorboard --logdir=logs/tensorboard
+2025-03-31 08:58:43,647 - INFO - Then open http://localhost:6006 in your web browser
+2025-03-31 08:58:43,691 - INFO - Loaded 4435 samples with class distribution:
+[   0 1072  479  961  415  470    0 1038]
+2025-03-31 08:58:44,277 - INFO - 
+Final Model Evaluation:
+2025-03-31 08:58:44,278 - INFO - Accuracy: 0.9917
+2025-03-31 08:58:44,278 - INFO - Macro F1: 0.9909
+2025-03-31 08:58:44,278 - INFO - ROC-AUC OVR: 0.9998928296790406
+2025-03-31 08:58:44,278 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           1     0.9963    0.9972    0.9967      1072
+           2     0.9979    1.0000    0.9990       479
+           3     0.9886    0.9969    0.9927       961
+           4     0.9624    0.9880    0.9750       415
+           5     0.9957    0.9936    0.9947       470
+           7     0.9971    0.9778    0.9874      1038
+
+    accuracy                         0.9917      4435
+   macro avg     0.9897    0.9922    0.9909      4435
+weighted avg     0.9918    0.9917    0.9917      4435
+
+2025-03-31 08:59:44,553 - INFO - Class distribution:
+2025-03-31 08:59:44,554 - INFO -   Class 1: 1072 samples (24.2%)
+2025-03-31 08:59:44,554 - INFO -   Class 2: 479 samples (10.8%)
+2025-03-31 08:59:44,554 - INFO -   Class 3: 961 samples (21.7%)
+2025-03-31 08:59:44,554 - INFO -   Class 4: 415 samples (9.4%)
+2025-03-31 08:59:44,554 - INFO -   Class 5: 470 samples (10.6%)
+2025-03-31 08:59:44,554 - INFO -   Class 7: 1038 samples (23.4%)
+2025-03-31 08:59:44,555 - INFO - Successfully loaded 4435 samples
+2025-03-31 08:59:44,560 - INFO - Training fold 1/5
+2025-03-31 08:59:47,662 - INFO - Training fold 2/5
+2025-03-31 08:59:50,418 - INFO - Training fold 3/5
+2025-03-31 08:59:53,074 - INFO - Training fold 4/5
+2025-03-31 08:59:55,667 - INFO - Training fold 5/5
+2025-03-31 09:00:00,337 - INFO - Model successfully saved to models/model_20250331_090000.joblib
+2025-03-31 09:00:00,816 - INFO - Model saved to models/model_20250331_090000.joblib
+2025-03-31 09:00:00,822 - INFO - 
+To view TensorBoard logs, run the following command:
+2025-03-31 09:00:00,822 - INFO - tensorboard --logdir=logs/tensorboard
+2025-03-31 09:00:00,822 - INFO - Then open http://localhost:6006 in your web browser
+2025-03-31 09:00:01,025 - INFO - Class distribution:
+2025-03-31 09:00:01,026 - INFO -   Class 1: 1072 samples (24.2%)
+2025-03-31 09:00:01,026 - INFO -   Class 2: 479 samples (10.8%)
+2025-03-31 09:00:01,026 - INFO -   Class 3: 961 samples (21.7%)
+2025-03-31 09:00:01,026 - INFO -   Class 4: 415 samples (9.4%)
+2025-03-31 09:00:01,026 - INFO -   Class 5: 470 samples (10.6%)
+2025-03-31 09:00:01,026 - INFO -   Class 7: 1038 samples (23.4%)
+2025-03-31 09:00:01,026 - INFO - Successfully loaded 4435 samples
+2025-03-31 09:00:01,549 - INFO - 
+Final Model Evaluation:
+2025-03-31 09:00:01,550 - INFO - Accuracy: 0.9917
+2025-03-31 09:00:01,550 - INFO - Macro F1: 0.9909
+2025-03-31 09:00:01,550 - INFO - ROC-AUC OVR: 0.9998928296790406
+2025-03-31 09:00:01,550 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           1     0.9963    0.9972    0.9967      1072
+           2     0.9979    1.0000    0.9990       479
+           3     0.9886    0.9969    0.9927       961
+           4     0.9624    0.9880    0.9750       415
+           5     0.9957    0.9936    0.9947       470
+           7     0.9971    0.9778    0.9874      1038
+
+    accuracy                         0.9917      4435
+   macro avg     0.9897    0.9922    0.9909      4435
+weighted avg     0.9918    0.9917    0.9917      4435
+
